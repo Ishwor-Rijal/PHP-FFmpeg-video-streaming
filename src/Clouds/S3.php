@@ -46,7 +46,11 @@ class S3 implements CloudInterface
         }
         $dest = $options['dest'];
         unset($options['dest'], $options['filename']);
-
+        
+        $options['before'] = function (\Aws\Command $command) {
+                $command['ACL'] = 'public-read';
+            };
+            
         try {
             (new \Aws\S3\Transfer($this->s3, $dir, $dest, $options))->transfer();
         } catch (\Aws\S3\Exception\S3Exception $e) {
