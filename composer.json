@@ -36,6 +36,11 @@
             "name": "Amin Yazdanpanah",
             "email": "contact@aminyazdanpanah.com",
             "homepage": "https://www.aminyazdanpanah.com"
+        },
+        {
+            "name": "Ishwor Prasad Rijal",
+            "email": "test@github.com",
+            "homepage": ""
         }
     ],
     "minimum-stability": "dev",
