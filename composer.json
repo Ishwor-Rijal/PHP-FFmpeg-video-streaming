@@ -1,5 +1,5 @@
 {
-    "name": "olivemedia/php-ffmpeg-video-streaming",
+    "name": "ishwor/php-ffmpeg-video-streaming",
     "description": "📼 PHP FFMpeg - Video Streaming - DASH, HLS http://video.aminyazdanpanah.com",
     "type": "library",
     "keywords": [
@@ -29,7 +29,7 @@
         "key-rotation",
         "clearkey"
     ],
-    "homepage": "https://github.com/olivemedia/PHP-FFmpeg-video-streaming",
+    "homepage": "https://github.com/Ishwor-Rijal/PHP-FFmpeg-video-streaming",
     "license": "MIT",
     "authors": [
         {
